@@ -1,0 +1,9 @@
+---
+instances: 1
+memory: 512M
+buildpack: https://github.com/AppDynamics/nodejs-buildpack
+applications: 
+  - name: nmg-app-nodejs
+    command: node server.js
+    host: nmo-appdyna-nodejs
+

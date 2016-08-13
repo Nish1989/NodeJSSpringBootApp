@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>AppDynamics</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   
+
+
+	
+
+    <div class="container">
+
+      <div class="page-header">
+        <h3><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> AppDynamics</h3>
+        
+      </div>
+
+      <h4><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>  AppDynamics Machine Agents <small>v4.2.3.1</small></h4>
+      <p></p>
+     
+
+	 <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <div class="caption">
+        <h4> <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Rabbit MQ <small>v3.2.4</small></h4>
+		<p>Extension Version: <b>v1.0</b></p>
+		<p>Instance Info: <b>52.10.190.217</b></p>
+		
+        <p><a href="/operations?opr=rabbitMQSend" class="btn btn-primary" role="button">Send Data</a>
+<span style="padding-left:5%">		<a href="/operations?opr=rabbitMQRec" class="btn btn-default" role="button">Receive Data</a></span></p>
+      </div>
+    </div>
+  </div>
+  
+  
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+     
+      <div class="caption">
+        <h4><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Redis <small>v3.2.3</small></h4>
+        <p>Extension Version: <b>v1.0.6</b></p>
+		<p>Instance Info: <b>52.42.22.103</b></p>
+        <p><a href="/operations?opr=redisOpr" class="btn btn-default" role="button">Generate Data</a></p>
+      </div>
+    </div>
+  </div>
+  
+  
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+     
+      <div class="caption">
+        <h4><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> DSE <small>5.0.1</small> - Cassandra <small>3.0.7.1159</small></h4>
+        <p>Extension Version: <b>v2.0.1</b></p>
+		<p>Instance Info: <b>172.23.6.9</b></p>
+        <p><a href="/operations?opr=cassandraDBOpr" class="btn btn-default" role="button">Generate Data</a></p>
+      </div>
+    </div>
+  </div>
+  
+
+  
+</div>
+
+<hr>
+
+<h4><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> AppDynamics Service Broker for PCF<small>v1.1.1</small></h4>
+	  	 <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+     
+      <div class="caption">
+        <h4><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Composite Service</h4>
+        <p>Pivotal Elastic Runtime: <b>v1.7.1-build.3</b></p>
+		<p>Ops Manager Director: <b>v1.7.2.0</b></p>
+		<p>JMX Bridge: <b>v1.7.1</b></p>
+        <p><a href="/operations?opr=appDynamicsOpr" class="btn btn-primary" role="button">Generate Load</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <hr>
+	  
+	  
+    </div> <!-- /container -->
+
+
+	
+	
+  </body>
+</html>
